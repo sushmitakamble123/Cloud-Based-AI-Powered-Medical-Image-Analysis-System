@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f6fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2f3640;
+        }
+
+        .result-box {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .result-box strong {
+            color: #0097e6;
+        }
+
+        .image-box {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .s3-link {
+            margin-top: 15px;
+        }
+
+        .s3-link a {
+            color: #0097e6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-link {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .back-link a {
+            text-decoration: none;
+            background: #0097e6;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Prediction Result</h1>
+
+    <div class="result-box">
+        <p><strong>Body Part:</strong> {{ body_part }}</p>
+        <p><strong>Condition:</strong> {{ condition }}</p>
+    </div>
+
+    {% if s3_url %}
+    <div class="image-box">
+        <h3>Image Stored in AWS S3</h3>
+        <img src="{{ s3_url }}" alt="Medical Image from S3">
+        <div class="s3-link">
+            <a href="{{ s3_url }}" target="_blank">Open Image from AWS S3</a>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="back-link">
+        <a href="/">Upload Another Image</a>
+    </div>
+</div>
+
+</body>
+</html>
