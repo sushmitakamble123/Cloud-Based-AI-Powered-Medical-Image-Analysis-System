@@ -1,4 +1,5 @@
 # Cloud-Based-AI-Powered-Medical-Image-Analysis-System
 A cloud-based AI system that analyzes medical images to classify them as normal or abnormal. Uploaded images and prediction results are securely stored in AWS, enabling fast analysis, scalability, and easy access.
 
-![image_alt](https://github.com/sushmitakamble123/Cloud-Based-AI-Powered-Medical-Image-Analysis-System/blob/0ace5f4f0768109b39c4c59538220f9d0fe11541/Screenshot%202026-03-05%20211630.png)
+![image1_alt](https://github.com/sushmitakamble123/Cloud-Based-AI-Powered-Medical-Image-Analysis-System/blob/0ace5f4f0768109b39c4c59538220f9d0fe11541/Screenshot%202026-03-05%20211630.png)
+![image2_alt](https://github.com/sushmitakamble123/Cloud-Based-AI-Powered-Medical-Image-Analysis-System/blob/322d31b7bf4efe2152d9dcdb19f898c823d69be2/Screenshot%202026-03-05%20212420.png)
