@@ -6,3 +6,4 @@ A cloud-based AI system that analyzes medical images to classify them as normal 
 ![image2_alt](https://github.com/sushmitakamble123/Cloud-Based-AI-Powered-Medical-Image-Analysis-System/blob/da0f1d6f4df3ef315e3a828b6fa362c80a26eb29/Screenshot%202026-03-05%20212516.png)
 ![image3_alt](https://github.com/sushmitakamble123/Cloud-Based-AI-Powered-Medical-Image-Analysis-System/blob/f5a987b9610d3c36a8f2a485a1c64234528d3055/Screenshot%202026-03-07%20185959.png)
 ![image4_alt](https://github.com/sushmitakamble123/Cloud-Based-AI-Powered-Medical-Image-Analysis-System/blob/0b767e6905010e6540b4c2706463ad02d8ab7a70/Screenshot%202026-03-07%20190248.png)
+![image5_alt](https://github.com/sushmitakamble123/Cloud-Based-AI-Powered-Medical-Image-Analysis-System/blob/8022be8355746b9d92247801197b48124ada6647/Screenshot%202026-03-07%20190446.png)
